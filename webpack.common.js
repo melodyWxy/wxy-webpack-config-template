@@ -10,7 +10,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-       title:'demo'
+      template: './src/index.html',
+      inject:true
     }),
   ],
   output: {
@@ -49,7 +50,12 @@ module.exports = {
             use: [
               'xml-loader'
             ]
-        }
+        },
+        {
+          test: /\.html$/,
+          use: 'html-loader'
+        },
+
     ]
   }
 };

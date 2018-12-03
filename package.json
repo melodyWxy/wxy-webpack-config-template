@@ -1,10 +1,10 @@
 {
-  "name": "wxy-design",
+  "name": "wxy-webpack-config-template",
   "sideEffects": [
     "*.css"
   ],
-  "version": "1.0.2",
-  "description": "xxx",
+  "version": "1.0.0",
+  "description": "基于webpack4及配置规范的配置模版",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,10 +22,13 @@
   },
   "homepage": "https://github.com/melodyWxy/WxyDesign#readme",
   "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
     "clean-webpack-plugin": "^0.1.19",
     "csv-loader": "^3.0.2",
     "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "jade-loader": "^0.8.0",
     "postcss-less": "^3.0.2",
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
@@ -46,5 +49,10 @@
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "style-loader": "^0.23.1"
-  }
+  },
+  "keywords": [
+    "config",
+    "webpack",
+    "melodyWxy"
+  ]
 }
