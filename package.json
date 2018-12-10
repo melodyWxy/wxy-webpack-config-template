@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melodyWxy/WxyDesign.git"
+    "url": "git+https://github.com/melodyWxy/wxy-webpack-config-template"
   },
   "author": "melodyWxy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/melodyWxy/WxyDesign/issues"
+    "url": "https://github.com/melodyWxy/wxy-webpack-config-template/issues"
   },
-  "homepage": "https://github.com/melodyWxy/WxyDesign#readme",
+  "homepage": "https://github.com/melodyWxy/wxy-webpack-config-template#readme",
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
     "clean-webpack-plugin": "^0.1.19",
