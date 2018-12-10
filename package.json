@@ -3,7 +3,7 @@
   "sideEffects": [
     "*.css"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于webpack4及配置规范的配置模版",
   "main": "./src/index.js",
   "scripts": {
